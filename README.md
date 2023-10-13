@@ -32,7 +32,7 @@ To install the application, follow these steps:
 
 ## Usage
 
-To start the application, run the following command:
+- To start the application, run the following command:
 
     ```bash
     npm run dev
@@ -48,7 +48,7 @@ The following functionalities are available:
 
 ## Automated Tests
 
-To run automated tests, use the following command:
+- To run automated tests, use the following command:
 
     ```bash
     npm run test
