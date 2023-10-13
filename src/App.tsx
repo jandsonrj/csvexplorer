@@ -1,12 +1,30 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import Card from './components/Card';
+import SearchBar from './components/SearchBar';
+import './styles/App.css';
 
-function App() {
+interface CSVData {
+  [key: string]: string;
+}
+
+const App: React.FC = () => {
+  const [data, setData] = useState<CSVData[]>([]);
+
+  const [searchQuery, setSearchQuery] = useState<string>('');
+
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+  };
+
   return (
-    <div className="App">
-      <h1>Testing React with Jest and Enzyme</h1>
+    <div>
+      <h1>CSV Explorer</h1>
+
+      <SearchBar onSearch={handleSearch} />
+
+      <Card data={data} searchQuery={searchQuery} setData={setData} />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# CSVExplorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a web application built with React that allows users to upload a CSV file from their local computer and search for data within the file. The CSV data is displayed as cards on the page, with each card showing the details of one row of the CSV file.
 
-In the project directory, you can run:
+## Prerequisites
 
-### `npm start`
+Before using this application, make sure you have Node.js installed on your system.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To install the application, follow these steps:
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/jandsonrj/csvexplorer.git
+    ```
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    cd csvexplorer
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To start the application, run the following command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm run dev
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The application will be available at http://localhost:4000.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The following functionalities are available:
 
-## Learn More
+- Upload CSV File: Click the "Upload File" button to upload a CSV file from your computer.
+- Search data: Use the search bar to search data in the uploaded CSV file. The application will update the displayed cards to only show matching results.
+- Data Display: CSV data is displayed as cards on the page, with each card showing the details of a row of the CSV file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Automated Tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run automated tests, use the following command:
+
+    ```bash
+    npm run test
+    ```
+
+## Contributing
+
+If you want to contribute to this project, follow these steps:
+
+1. Fork the repository.
+2. Create a branch with your feature: git checkout -b my-feature.
+3. Commit the changes: git commit -m 'Adding new feature'.
+4. Push to the branch: git push origin my-feature.
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
