@@ -28,3 +28,5 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+// 2k24 coming soon
