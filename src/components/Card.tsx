@@ -59,3 +59,15 @@ const Card: React.FC<CardProps> = ({ data, searchQuery, setData }) => {
 };
 
 export default Card;
+
+// updates 2k24
+// updates 2k24
+// updates 2k24
+// updates 2k24
+// updates 2k24
+// updates 2k24
+// updates 2k24
+// updates 2k24
+// updates 2k24
+// updates 2k24
+// updates 2k24
